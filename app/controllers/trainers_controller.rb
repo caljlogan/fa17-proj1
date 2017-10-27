@@ -9,4 +9,7 @@ class TrainersController < ApplicationController
     @trainer = Trainer.find(params[:id])
   end
 
+  def update
+  	puts "made it to update"
+  end
 end
